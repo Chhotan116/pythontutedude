@@ -1,0 +1,35 @@
+'''
+Module 4: Funntions & Modules in Python
+# task 1 : calculate Factorial Using a function
+'''
+
+def fact(num):
+    if num == 1:
+        return 1
+    else:
+        result = num * fact(num - 1)
+        return result
+a =int(input("Enter a number: "))
+print(f"The factorial of {a} is: {fact(a)}")
+
+
+
+# task 2 : Using the math module for calculations
+'''
+1.   Asks the user for a number as input.
+2.   Uses the math module to calculate the:
+   Square root of the number
+o   Natural logarithm (log base e) of the number
+o   Sine of the number (in radians)
+3.   Displays the calculated results.'''
+
+
+
+import math as m
+num1 = int(input("Enter a number: "))
+sqr = m.sqrt(num1)
+log = m.log(num1)
+sine = m.sin(num1)
+print(f"The square root of {num1} is: {sqr}")
+print(f"The logarithm of {num1} is: {log}")
+print(f"The sine of {num1} is: {sine}")
