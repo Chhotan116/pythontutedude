@@ -4,7 +4,7 @@ Module 4: Funntions & Modules in Python
 '''
 
 def fact(num):
-    if num == 1:
+    if num == 1 or num == 0:
         return 1
     else:
         result = num * fact(num - 1)
