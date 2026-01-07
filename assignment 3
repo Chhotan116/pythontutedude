@@ -11,7 +11,9 @@ def fact(num):
         return result
 a =int(input("Enter a number: "))
 print(f"The factorial of {a} is: {fact(a)}")
-
+# output 
+Enter a number: 6
+The factorial of 6 is: 720
 
 
 # task 2 : Using the math module for calculations
@@ -33,3 +35,9 @@ sine = m.sin(num1)
 print(f"The square root of {num1} is: {sqr}")
 print(f"The logarithm of {num1} is: {log}")
 print(f"The sine of {num1} is: {sine}")
+
+# output
+Enter a number: 81
+The square root of 81 is: 9.0
+The logarithm of 81 is: 4.394449154672439
+The sine of 81 is: -0.6298879942744539
